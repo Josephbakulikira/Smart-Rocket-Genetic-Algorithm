@@ -1,5 +1,5 @@
 import math
-from matrix import *
+
 import numpy as np
 def matrix_multiplication(a, b):
     columns_a = len(a[0])

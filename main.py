@@ -19,19 +19,19 @@ fps = 60
 def hsv_to_rgb(h, s, v):
     return tuple(round(i * 255) for i in colorsys.hsv_to_rgb(h, s, v))
 
-scale = 50
+scale = 40
 Distance = 5
 speed = 0.03
 hue = uniform(0, 2)
 temp = hue
-lifeSpan = 400
-startingPosition = Vector(Width//2, Height-50)
-Target = Vector(Width//2, 60)
+lifeSpan = 600
+startingPosition = Vector(50, Height//2)
+Target = Vector(Width-50, Height//2)
 
 obstacles = []
 for i in range(4):
-    x = randint(100, Width)
-    y = randint(100, Height-200)
+    x = randint(100, Width-100)
+    y = randint(100, Height-100)
     w = randint(50, 300)
     h = randint(50, 300)
     o = Obstacle(x, y, w, h)
