@@ -1,7 +1,5 @@
 # Smart-Rocket-Genetic-Algorithm
 Smart Rocket Genetic algorithm using python(pygame)
-### this project was insprired by Daniel Shiffman Playlist about the genetic algorithm
-[Coding Train playlist](https://www.youtube.com/watch?v=9zfeTw-uFCw&list=PLRqwX-V7Uu6bJM3VgzjNV5YxVxUwzALHV&index=1)
 
 ---
 ### unsolved issues
